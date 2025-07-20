@@ -1,0 +1,1 @@
+console.log("How about we explore the area ahead of us later?");
