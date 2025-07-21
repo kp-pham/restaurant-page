@@ -1,4 +1,4 @@
-import skylightImage from "./images/skylight.png";
+import skylightImage from "./images/interior/skylight.png";
 
 const content = document.getElementById("content");
 
