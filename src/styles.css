@@ -46,6 +46,11 @@ img {
     gap: 40px;
 }
 
+.picture {
+    flex-basis: 30%;
+    height: 100%;
+}
+
 .picture img {
     width: 200px;
 }
