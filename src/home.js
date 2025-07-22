@@ -6,7 +6,7 @@ const content = document.getElementById("content");
 function displayHomepage() {
     content.textContent = "";
     content.appendChild(createSlideshow());
-    const obj = createSlideshowController();
+    createSlideshowController();
 }
 
 function createSlideshow() {
@@ -57,19 +57,29 @@ function createSlideshowController() {
 
     let currentSlide = 0;
 
-    slides[currentSlide].style.display = "block";
-    dots[currentSlide].classList.add("active");
+    updateSlideshow(currentSlide);
 
-    function changeSlide(newSlide) {
-        slides[currentSlide].style.display = "none";
-        dots[currentSlide].classList.remove("active");
-
-        slides[newSlide].style.display = "block";
-        dots[newSlide].style.display = "active";
-        currentSlide = newSlide;        
+    function updateSlideshow(slide) {
+        changeSlide(slide);
+        changeIndicator(slide);
+        changeCurrentSlide(slide);
     }
 
-    return { changeSlide };
+    function changeSlide(slide) {
+        slides[currentSlide].style.display = "none";
+        slides[slide].style.display = "block";
+    }
+
+    function changeIndicator(slide) {
+        dots[currentSlide].classList.remove("active");
+        dots[slide].classList.add("active");
+    }
+
+    function changeCurrentSlide(slide) {
+        currentSlide = slide;
+    }
+
+    dots.forEach(dot => dot.addEventListener("click", event => updateSlideshow(event.target.dataset.slide)));
 }
 
 export default displayHomepage;
