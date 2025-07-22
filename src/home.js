@@ -49,4 +49,11 @@ function createIndicator() {
     return indicator;
 }
 
+function createSlideshowController() {
+    const slideshow = document.querySelector(".slideshow"); 
+    const slides = document.querySelectorAll(".slide");
+
+    return {};
+}
+
 export default displayHomepage;
