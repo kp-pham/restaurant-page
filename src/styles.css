@@ -37,12 +37,22 @@ img {
 .menu-item {
     display: flex;
     justify-content: center;
+    gap: 40px;
+}
+
+.picture img {
+    width: 200px;
+}
+
+.description {
+    width: 60ch;
+    min-width: 45ch;
 }
 
 .heading {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
 }
 
 .heading h3 {
