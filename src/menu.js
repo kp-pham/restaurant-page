@@ -2,7 +2,6 @@ import data from "./images/data/dishes.json";
 
 const dishesContext = require.context("./images/dishes", false, /\.(png|svg|jpg|jpeg|gif)$/i);
 
-const button = document.getElementById("menu");
 const content = document.getElementById("content");
 
 function displayMenu() {
@@ -77,4 +76,4 @@ function createParagraph(dish) {
     return paragraph;
 }
 
-button.addEventListener("click", displayMenu);
+export default displayMenu;

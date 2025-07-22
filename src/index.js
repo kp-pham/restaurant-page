@@ -1,3 +1,7 @@
 import "./home.js";
-import "./menu.js";
+import displayMenu from "./menu.js";
 import "./styles.css";
+
+const menuButton = document.getElementById("menu");
+
+menuButton.addEventListener("click", displayMenu);
