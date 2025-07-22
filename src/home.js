@@ -6,6 +6,7 @@ const content = document.getElementById("content");
 function displayHomepage() {
     content.textContent = "";
     content.appendChild(createSlideshow());
+    const obj = createSlideshowController();
 }
 
 function createSlideshow() {
@@ -53,6 +54,10 @@ function createIndicator(index) {
 function createSlideshowController() {
     const slides = document.querySelectorAll(".slide");
     const dots = document.querySelectorAll(".dot");
+
+    let currentSlide = 0;
+
+    slides[currentSlide].style.display = "block";
 
     return {};
 }
