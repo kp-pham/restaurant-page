@@ -15,9 +15,9 @@ function createSlideshow() {
     const indicators = document.createElement("div");
     indicators.classList.add("dots-container");
     
-    data.forEach(interior => {
+    data.forEach((interior, index) => {
         slideshow.appendChild(createSlide(interior));
-        indicators.appendChild(createIndicator());
+        indicators.appendChild(createIndicator(index));
     });
 
     slideshow.appendChild(indicators);
@@ -41,17 +41,18 @@ function createSlideContent(interior) {
     return slideContent;
 }
 
-function createIndicator() {
+function createIndicator(index) {
     const indicator = document.createElement("button");
     indicator.type = "button";
+    indicator.dataset.slide = index;
     indicator.classList.add("dot");
 
     return indicator;
 }
 
 function createSlideshowController() {
-    const slideshow = document.querySelector(".slideshow"); 
     const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
 
     return {};
 }
