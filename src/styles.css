@@ -18,10 +18,9 @@ nav {
     display: none;
 }
 
-/* img {
-    width: 500px;
-    height: auto;
-} */
+img {
+    width: 100%;
+}
 
 .dot {
     width: 15px;
