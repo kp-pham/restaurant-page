@@ -7,6 +7,7 @@ function displayHomepage() {
     content.textContent = "";
     content.appendChild(createSlideshow());
     createSlideshowController();
+    content.appendChild(createAdvertisement());
 }
 
 function createSlideshow() {
@@ -80,6 +81,15 @@ function createSlideshowController() {
     }
 
     dots.forEach(dot => dot.addEventListener("click", event => updateSlideshow(event.target.dataset.slide)));
+}
+
+function createAdvertisement() {
+    const advertisement = document.createElement("blockquote");
+    advertisement.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
+        Can you see through it, and find the truth hidden by the magic? Tonight, the most dazzling twin \
+        stars of the Court of Fontaine shall reveal the secret!";
+
+    return advertisement;
 }
 
 export default displayHomepage;
