@@ -40,6 +40,7 @@ function createDescription(dish) {
     const description = document.createElement("div");
     description.classList.add("description");
     description.appendChild(createHeading(dish));
+    description.appendChild(createParagraph(dish));
 
     return description;
 }
@@ -67,6 +68,13 @@ function createPrice(dish) {
     price.textContent = dish["price"];
 
     return price;
+}
+
+function createParagraph(dish) {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = dish["description"];
+
+    return paragraph;
 }
 
 button.addEventListener("click", displayMenu);
