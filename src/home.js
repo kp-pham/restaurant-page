@@ -11,8 +11,16 @@ function displayHomepage() {
 function createSlideshow() {
     const slideshow = document.createElement("div");
     slideshow.classList.add("slideshow");
+
+    const indicators = document.createElement("div");
+    indicators.classList.add("dots-container");
     
-    data.forEach(interior => slideshow.appendChild(createSlide(interior)));
+    data.forEach(interior => {
+        slideshow.appendChild(createSlide(interior));
+        indicators.appendChild(createIndicator());
+    });
+
+    slideshow.appendChild(indicators);
 
     return slideshow;
 }
@@ -30,6 +38,14 @@ function createSlideContent(interior) {
     slideContent.alt = interior["description"];
 
     return slideContent;
+}
+
+function createIndicator() {
+    const indicator = document.createElement("button");
+    indicator.type = "button";
+    indicator.classList.add("dot");
+
+    return indicator;
 }
 
 export default displayHomepage;
