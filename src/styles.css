@@ -4,6 +4,11 @@ nav {
     align-items: center;
 }
 
+#content {
+    width: 50%;
+    margin: 0 auto;
+}
+
 img {
     width: 500px;
     height: auto;
