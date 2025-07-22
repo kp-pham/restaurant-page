@@ -29,7 +29,8 @@ img {
     border-radius: 50%;
 }
 
-.active {
+.active, .dot:hover, .dot:focus-visible {
+    outline: none;
     background-color: red;
 }
 
