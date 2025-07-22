@@ -46,18 +46,27 @@ function createDescription(dish) {
 
 function createHeading(dish) {
     const heading = document.createElement("div");
-    heading.classList.add("item-heading");
-    const name = document.createElement("h3");
-    name.textContent = dish["name"];
-    
-    heading.appendChild(name);
-
-    const price = document.createElement("div");
-    price.textContent = dish["price"];
-    
-    heading.appendChild(price);
+    heading.classList.add("heading");
+    heading.appendChild(createName(dish));
+    heading.appendChild(createPrice(dish));
 
     return heading;
+}
+
+function createName(dish) {
+    const name = document.createElement("h3");
+    name.classList.add("name");
+    name.textContent = dish["name"];
+
+    return name;
+}
+
+function createPrice(dish) {
+    const price = document.createElement("div");
+    price.classList.add("price");
+    price.textContent = dish["price"];
+
+    return price;
 }
 
 button.addEventListener("click", displayMenu);
