@@ -29,6 +29,10 @@ img {
     border-radius: 50%;
 }
 
+.active {
+    background-color: red;
+}
+
 .menu-item {
     display: flex;
     justify-content: center;

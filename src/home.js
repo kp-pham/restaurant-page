@@ -58,8 +58,18 @@ function createSlideshowController() {
     let currentSlide = 0;
 
     slides[currentSlide].style.display = "block";
+    dots[currentSlide].classList.add("active");
 
-    return {};
+    function changeSlide(newSlide) {
+        slides[currentSlide].style.display = "none";
+        dots[currentSlide].classList.remove("active");
+
+        slides[newSlide].style.display = "block";
+        dots[newSlide].style.display = "active";
+        currentSlide = newSlide;        
+    }
+
+    return { changeSlide };
 }
 
 export default displayHomepage;
