@@ -1,0 +1,14 @@
+[
+    {
+        "file": "entrance.png",
+        "description": "Main entrance with the kitchen and the balcony of the second floor overlooking the rest of the restaurant."
+    },
+    {
+        "file": "dining-tables.png",
+        "description": "Dining tables to the right of the main entrance on the first floor."
+    },
+    {
+        "file": "skylight.png",
+        "description": "View of the skylight with the starry night sky on the second floor of the restaurant."
+    }
+]

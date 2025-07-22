@@ -1,5 +1,5 @@
+import data from "./images/data/interior.json";
 const interiorContext = require.context("./images/interior", false, /\.(png|svg|jpg|jpeg|gif)$/i);
-const interiorImages = interiorContext.keys().map(interiorContext);
 
 const content = document.getElementById("content");
 
@@ -12,21 +12,22 @@ function createSlideshow() {
     const slideshow = document.createElement("div");
     slideshow.classList.add("slideshow");
     
-    interiorImages.forEach(image => slideshow.appendChild(createSlide(image)));
+    data.forEach(interior => slideshow.appendChild(createSlide(interior)));
 
     return slideshow;
 }
 
-function createSlide(image) {
+function createSlide(interior) {
     const slide = document.createElement("div");
-    slide.appendChild(createSlideContent(image));
+    slide.appendChild(createSlideContent(interior));
 
     return slide;
 }
 
-function createSlideContent(image) {
+function createSlideContent(interior) {
     const slideContent = document.createElement("img");
-    slideContent.src = image;
+    slideContent.src = interiorContext(`./${interior["file"]}`);
+    slideContent.alt = interior["description"];
 
     return slideContent;
 }
