@@ -27,6 +27,7 @@ function createSlideshow() {
 
 function createSlide(interior) {
     const slide = document.createElement("div");
+    slide.classList.add("slide");
     slide.appendChild(createSlideContent(interior));
 
     return slide;
