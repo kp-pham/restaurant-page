@@ -13,7 +13,9 @@ function displayMenu() {
 
 function createMenuItem(dish) {
     const menuItem = document.createElement("div");
+    menuItem.classList.add("menu-item");
     menuItem.appendChild(createPicture(dish));
+    menuItem.appendChild(createDescription(dish));
 
     return menuItem;
 }
@@ -32,6 +34,21 @@ function loadImage(dish) {
     image.alt = dish["name"];
 
     return image;
+}
+
+function createDescription(dish) {
+    const description = document.createElement("div");
+    description.classList.add("description");
+    description.appendChild(createHeading(dish));
+
+    return description;
+}
+
+function createHeading(dish) {
+    const heading = document.createElement("h3");
+    heading.textContent = dish["name"];
+
+    return heading;
 }
 
 button.addEventListener("click", displayMenu);
