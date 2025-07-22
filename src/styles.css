@@ -8,3 +8,13 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+.item-heading {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.item-heading h3 {
+    margin: 0;
+}

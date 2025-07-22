@@ -45,8 +45,17 @@ function createDescription(dish) {
 }
 
 function createHeading(dish) {
-    const heading = document.createElement("h3");
-    heading.textContent = dish["name"];
+    const heading = document.createElement("div");
+    heading.classList.add("item-heading");
+    const name = document.createElement("h3");
+    name.textContent = dish["name"];
+    
+    heading.appendChild(name);
+
+    const price = document.createElement("div");
+    price.textContent = dish["price"];
+    
+    heading.appendChild(price);
 
     return heading;
 }
