@@ -6,6 +6,8 @@ const content = document.getElementById("content");
 
 function displayMenu() {
     content.textContent = "";
+    content.classList.remove(...content.classList);
+    content.classList.add("menu");
 
     data.forEach(dish => content.appendChild(createMenuItem(dish)));
 }

@@ -5,6 +5,9 @@ const content = document.getElementById("content");
 
 function displayHomepage() {
     content.textContent = "";
+    content.classList.remove(...content.classList);
+    content.classList.add("home");
+
     content.appendChild(createSlideshow());
     createSlideshowController();
     content.appendChild(createAdvertisement());

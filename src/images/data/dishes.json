@@ -67,6 +67,7 @@
     },
     {
         "name": "Ile Flottante",
+        "price": 1175,
         "file": "ile-flottante.png",
         "description": "A dessert made of egg whites. Light egg-white dew that floats on the creamy sauce is like mysterious treasure chests awaiting travelers' exploration."
     },

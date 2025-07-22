@@ -9,6 +9,12 @@ nav {
     margin: 0 auto;
 }
 
+.menu {
+    display: grid;
+    grid-auto-rows: 1fr;
+    align-items: center;
+}
+
 .slideshow {
     width: 100%;
     position: relative;
