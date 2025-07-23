@@ -7,6 +7,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     padding: 0;
     margin: 0;
     background-color: #16403D;
@@ -152,4 +154,34 @@ img {
 
 .heading h3 {
     margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #CEB360;
+    background-color: #143230;
+    padding: 35px 10px 10px 10px;
+    border-top: 5px double #CEB360;
+}
+
+.emblem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 82%;
+    transform: translate(-50%) rotate(45deg);
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    background-color: #143230;
+    border: 5px double #CEB360;
+}
+
+.emblem img {
+    transform: rotate(-45deg);
 }
