@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'fontaine_scriptregular';
+    src: url('./fonts/fontainescript-regular-webfont.woff2') format('woff2'),
+         url('./fonts/fontainescript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -9,13 +17,20 @@ header {
     display: flex;
     gap: 50px;
     background-color: #143230;
+    padding: 10px;
 }
 
 .branding {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    gap: 10px;
+}
+
+.brand {
+    font-family: "fontaine_scriptregular";
+    font-size: 2rem;
+    color: #CEB360;
 }
 
 .branding img {
@@ -39,7 +54,7 @@ nav button {
 }
 
 nav button.active, nav button:hover, nav button:focus-visible {
-    outline: 5px double gold;
+    outline: 5px double #CEB360;
 }
 
 #content {
@@ -94,7 +109,7 @@ img {
     align-items: center;
     gap: 40px;
     padding: 10px;
-    border: 10px double gold;
+    border: 10px double #CEB360;
 }
 
 .picture {
