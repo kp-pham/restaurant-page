@@ -9,7 +9,46 @@ function displayMenu() {
     content.classList.remove(...content.classList);
     content.classList.add("menu");
 
-    data.forEach(dish => content.appendChild(createMenuItem(dish)));
+    data.forEach(category => {
+        const container = createCategory(getCategoryName(category));
+        container.appendChild(createMenuItems(getDishesInCategory(category)));
+        content.appendChild(container);
+    });
+}
+
+function createCategory(name) {
+    const category = document.createElement("div");
+    category.classList.add(name);
+    category.appendChild(createCategoryHeading(capitalize(name)));
+
+    return category;
+}
+
+function getCategoryName(category) {
+    return Object.keys(category)[0];
+}
+
+function createCategoryHeading(heading) {
+    const categoryHeading = document.createElement("h2");
+    categoryHeading.textContent = heading;
+
+    return categoryHeading;
+}
+
+function capitalize(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+function createMenuItems(menuItems) {
+    const container = document.createElement("div");
+    container.classList.add("menu-items");
+    menuItems.forEach(menuItem => container.appendChild(createMenuItem(menuItem)));
+
+    return container;
+}
+
+function getDishesInCategory(category) {
+    return Object.values(category)[0];
 }
 
 function createMenuItem(dish) {

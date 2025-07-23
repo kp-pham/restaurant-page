@@ -1,104 +1,120 @@
 [
     {
-        "name": "Boudin Noir Aux Pommes",
-        "price": 1775,
-        "file": "boudin-noir-aux-pommes.png",
-        "description": "A traditional Fontainian dish. A perfect combination, with the sweet fragrance of the apples neutralizing the fat of the blood sausage."
+        "appetizers": [
+            {
+                "name": "Consomme",
+                "price": 7125,
+                "file": "consomme.png",
+                "description": "A soup with a complex recipe. A clear soup that combines the essence of the boundless blue skies above and the limitless land below, the aromas of meat and vegetables blended seamlessly into a greater whole."
+            },
+            {
+                "name": "Cream of Mushroom Soup",
+                "price": 1775,
+                "file": "cream-of-mushroom-soup.png",
+                "description": "A bisque that can be found everywhere. Blend cooked ingredients until they are liquefied, and heat the soup with cream until it is thickened up — voila! A simple dish that warms your stomach as well as your heart."
+            },
+            {
+                "name": "Poisson Seafood Soup",
+                "price": 1625,
+                "file": "poisson-seafood-soup.png",
+                "description": "A seafood soup. The buttery soup resembles gilded waves under the bright sun, as the rich seafood aromas melt in your mouth. The bounties of the ocean form a harmonious masterpiece."
+            },
+            {
+                "name": "Fontaine Aspic",
+                "price": 1775,
+                "file": "fontaine-aspic.png",
+                "description": "A cold dish made from seafood. Grind fish meat into a paste and add it to a rectangular mold to be baked. Leave the dish to cool before serving. It feels cold on the tongue but warm in the heart."
+            },
+            {
+                "name": "Garlic Baguette",
+                "price": 1850,
+                "file": "garlic-baguette.png",
+                "description": "Sliced baguette. Taken freshly out of the oven, the bread has a crispy, crackling crust, and soft, fluffy crumb. The aroma of butter and garlic further adds to the baguette's tastiness!"
+            },
+            {
+                "name": "Fontainian Foie Gras",
+                "price": 7125,
+                "file": "fontainian-foie-gras.png",
+                "description": "A traditional dish of Fontaine. The tender and buttery foie gras greets your tastebuds with silky dance moves before waltzing down your throat like smooth satin."
+            }
+        ]
     },
     {
-        "name": "Bulle Sauce Duck Breast",
-        "price": 1775,
-        "file": "bulle-sauce-duck-breast.png",
-        "description": "A meat dish with the fragrant fullness of fruit. After sautéeing the duck breast, slice it and plate the meat before drizzling Bulle Fruit sauce atop it. Crisp skin, sumptuous tender meat, and sauce mingling sweet and sour come together in an ensemble that is a classic Fontainian delicacy."
+        "entrees": [
+            {
+                "name": "Boudin Noir Aux Pommes",
+                "price": 1775,
+                "file": "boudin-noir-aux-pommes.png",
+                "description": "A traditional Fontainian dish. A perfect combination, with the sweet fragrance of the apples neutralizing the fat of the blood sausage."
+            }, 
+            {
+                "name": "Bulle Sauce Duck Breast",
+                "price": 1775,
+                "file": "bulle-sauce-duck-breast.png",
+                "description": "A meat dish with the fragrant fullness of fruit. After sautéeing the duck breast, slice it and plate the meat before drizzling Bulle Fruit sauce atop it. Crisp skin, sumptuous tender meat, and sauce mingling sweet and sour come together in an ensemble that is a classic Fontainian delicacy."
+            },
+            {
+                "name": "Cassoulet",
+                "price": 7125,
+                "file": "cassoulet.png",
+                "description": "A simple rustic stew. Time is the most wondrous of weapons for catalyzing the creation of deliciousness, and time allows the meat in this dish to soak up the ocean of stewed flavor it is bathing in, becoming soft and fragrant. Together with the rich aroma of the beans, it conjures a warm delight in one's mouth that stirs the spirit."
+            },
+            {
+                "name": "Duck Confit",
+                "price": 1250,
+                "file": "duck-confit.png",
+                "description": "A pan-fried dish. The duck leg has been seasoned with spices and salt and then rinsed clean before being poached in duck fat. The confit is seared before being served. The meat goes deliciously well with potatoes sautéed in duck fat."
+            },
+            {
+                "name": "Fricassee de Poulet",
+                "price": 7125,
+                "file": "fricassee-de-poulet.png",
+                "description": "A well-known Fontainian meat dish. The meat is first fried in oil until the skin is a delicious crispy brown, then stir-fried with onions and other condiments, before adding fermented fruit juice and stewing — and don't forget to add cream once the soup thickens. When ready, every last piece of meat is wrapped uniformly in cream, giving it that warm, familiar flavor that Fontainians love."
+            },
+            {
+                "name": "Lasagna",
+                "price": 7125,
+                "file": "lasagna.png",
+                "description": "A baked pasta dish. Spread cheese, meat sauce, and Béchamel sauce on a layer of pasta strips, and place another layer of pasta strips on the top — repeat the process a few times and bake the pasta until the cheese becomes golden and bubbly. The secret of its tastiness lies in the carefully-prepared meat sauce."
+            },
+            {
+                "name": "Tomates Narbonnaises",
+                "price": 7125,
+                "file": "tomates-narbonnaises.png",
+                "description": "A dish of meat and vegetables. Juicy mouthwatering tomatoes filled with hearty meat, each one has an agile, charming aroma, which explodes into a splendid savor after biting into it. After eating a single one, all the dark clouds in your heart will have been banished by the rich deliciousness emanating from your tongue."
+            },
+            {
+                "name": "Tripes du Port",
+                "price": 7125,
+                "file": "tripes-du-port.png",
+                "description": "An offal dish. The flaky yet soft cow's stomach has an almost fruity fragrance. Unlike other surprising delicacies that take the world by storm, the dish is overflowing with rich traditional savor, and once you have a single bite, you simply cannot stop!"
+            }
+        ]
     },
     {
-        "name": "Cassoulet",
-        "price": 7125,
-        "file": "cassoulet.png",
-        "description": "A simple rustic stew. Time is the most wondrous of weapons for catalyzing the creation of deliciousness, and time allows the meat in this dish to soak up the ocean of stewed flavor it is bathing in, becoming soft and fragrant. Together with the rich aroma of the beans, it conjures a warm delight in one's mouth that stirs the spirit."
+        "desserts": [
+            {
+                "name": "Ile Flottante",
+                "price": 1175,
+                "file": "ile-flottante.png",
+                "description": "A dessert made of egg whites. Light egg-white dew that floats on the creamy sauce is like mysterious treasure chests awaiting travelers' exploration."
+            },
+            {
+                "name": "Rainbow Macarons",
+                "price": 7125,
+                "file": "rainbow-macarons.png",
+                "description": "Small, multi-colored round pastries. There's a saying in Fontaine that a dessert spread without macarons is like having the many waters bereft of their source."
+            }
+        ]
     },
     {
-        "name": "Consomme",
-        "price": 7125,
-        "file": "consomme.png",
-        "description": "A soup with a complex recipe. A clear soup that combines the essence of the boundless blue skies above and the limitless land below, the aromas of meat and vegetables blended seamlessly into a greater whole."
-    },
-    {
-        "name": "Cream of Mushroom Soup",
-        "price": 1775,
-        "file": "cream-of-mushroom-soup.png",
-        "description": "A bisque that can be found everywhere. Blend cooked ingredients until they are liquefied, and heat the soup with cream until it is thickened up — voila! A simple dish that warms your stomach as well as your heart."
-    },
-    {
-        "name": "Duck Confit",
-        "price": 1250,
-        "file": "duck-confit.png",
-        "description": "A pan-fried dish. The duck leg has been seasoned with spices and salt and then rinsed clean before being poached in duck fat. The confit is seared before being served. The meat goes deliciously well with potatoes sautéed in duck fat."
-    },
-    {
-        "name": "Fonta",
-        "price": 160,
-        "file": "fonta.png",
-        "description": "A specialty drink created by the Fontaine Research Institute. It is well-received by locals."
-    },
-    {
-        "name": "Fontaine Aspic",
-        "price": 1775,
-        "file": "fontaine-aspic.png",
-        "description": "A cold dish made from seafood. Grind fish meat into a paste and add it to a rectangular mold to be baked. Leave the dish to cool before serving. It feels cold on the tongue but warm in the heart."
-    },
-    {
-        "name": "Fontainian Foie Gras",
-        "price": 7125,
-        "file": "fontainian-foie-gras.png",
-        "description": "A traditional dish of Fontaine. The tender and buttery foie gras greets your tastebuds with silky dance moves before waltzing down your throat like smooth satin."
-    },
-    {
-        "name": "Fricassee de Poulet",
-        "price": 7125,
-        "file": "fricassee-de-poulet.png",
-        "description": "A well-known Fontainian meat dish. The meat is first fried in oil until the skin is a delicious crispy brown, then stir-fried with onions and other condiments, before adding fermented fruit juice and stewing — and don't forget to add cream once the soup thickens. When ready, every last piece of meat is wrapped uniformly in cream, giving it that warm, familiar flavor that Fontainians love."
-    },
-    {
-        "name": "Garlic Baguette",
-        "price": 1850,
-        "file": "garlic-baguette.png",
-        "description": "Sliced baguette. Taken freshly out of the oven, the bread has a crispy, crackling crust, and soft, fluffy crumb. The aroma of butter and garlic further adds to the baguette's tastiness!"
-    },
-    {
-        "name": "Ile Flottante",
-        "price": 1175,
-        "file": "ile-flottante.png",
-        "description": "A dessert made of egg whites. Light egg-white dew that floats on the creamy sauce is like mysterious treasure chests awaiting travelers' exploration."
-    },
-    {
-        "name": "Lasagna",
-        "price": 7125,
-        "file": "lasagna.png",
-        "description": "A baked pasta dish. Spread cheese, meat sauce, and Béchamel sauce on a layer of pasta strips, and place another layer of pasta strips on the top — repeat the process a few times and bake the pasta until the cheese becomes golden and bubbly. The secret of its tastiness lies in the carefully-prepared meat sauce."
-    },
-    {
-        "name": "Poisson Seafood Soup",
-        "price": "1625",
-        "file": "poisson-seafood-soup.png",
-        "description": "A seafood soup. The buttery soup resembles gilded waves under the bright sun, as the rich seafood aromas melt in your mouth. The bounties of the ocean form a harmonious masterpiece."
-    },
-    {
-        "name": "Rainbow Macarons",
-        "price": 7125,
-        "file": "rainbow-macarons.png",
-        "description": "Small, multi-colored round pastries. There's a saying in Fontaine that a dessert spread without macarons is like having the many waters bereft of their source."
-    },
-    {
-        "name": "Tomates Narbonnaises",
-        "price": 7125,
-        "file": "tomates-narbonnaises.png",
-        "description": "A dish of meat and vegetables. Juicy mouthwatering tomatoes filled with hearty meat, each one has an agile, charming aroma, which explodes into a splendid savor after biting into it. After eating a single one, all the dark clouds in your heart will have been banished by the rich deliciousness emanating from your tongue."
-    },
-    {
-        "name": "Tripes du Port",
-        "price": 7125,
-        "file": "tripes-du-port.png",
-        "description": "An offal dish. The flaky yet soft cow's stomach has an almost fruity fragrance. Unlike other surprising delicacies that take the world by storm, the dish is overflowing with rich traditional savor, and once you have a single bite, you simply cannot stop!"
+        "beverages": [
+            {
+                "name": "Fonta",
+                "price": 160,
+                "file": "fonta.png",
+                "description": "A specialty drink created by the Fontaine Research Institute. It is well-received by locals."
+            }
+        ]
     }
 ]
