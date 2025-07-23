@@ -57,6 +57,10 @@ nav button.active, nav button:hover, nav button:focus-visible {
     outline: 5px double #CEB360;
 }
 
+nav button:hover, nav button:focus-visible {
+    background-color: #CEB360;
+}
+
 #content {
     width: 50%;
     margin: 0 auto;
@@ -64,12 +68,15 @@ nav button.active, nav button:hover, nav button:focus-visible {
     background-color: #237F6C;
 }
 
+.home > div {
+    background-color: #143230;
+    padding: 30px;
+}
+
 .slideshow {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: #143230;
-    padding: 30px;
 }
 
 .slide {
@@ -84,19 +91,23 @@ img {
 .dots-container {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .dot {
     background-color: #237F6C;
     width: 20px;
     aspect-ratio: 1 / 1;
+    border: 2px solid #A66F44;
     border-radius: 50%;
 }
 
-.dot.active, .dot:hover, .dot:focus-visible {
-    outline: none;
+.dot.active {
     background-color: #CEB360;
+}
+
+.dot:hover, .dot:focus-visible {
+    outline: 4px solid #A66F44;
 }
 
 .menu {

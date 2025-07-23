@@ -35,11 +35,13 @@ function changeTab(event) {
 function closeCurrentTab() {
     const currentTab = document.querySelector(".active");
     currentTab.classList.remove("active");
+    currentTab.disabled = false;
 }
 
 function openTab(tab) {
     const newTab = document.getElementById(tab);
     newTab.classList.add("active");
+    newTab.disabled = true;
 }
 
 nav.addEventListener("click", clickHandlerNav);
