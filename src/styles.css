@@ -42,7 +42,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 nav button {
@@ -65,28 +65,38 @@ nav button.active, nav button:hover, nav button:focus-visible {
 }
 
 .slideshow {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #143230;
+    padding: 30px;
 }
 
 .slide {
     display: none;
+    border: 10px double #CEB360;
 }
 
 img {
     width: 100%;
 }
 
+.dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
 .dot {
-    width: 15px;
+    background-color: #237F6C;
+    width: 20px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
 }
 
 .dot.active, .dot:hover, .dot:focus-visible {
     outline: none;
-    background-color: red;
+    background-color: #CEB360;
 }
 
 .menu {
