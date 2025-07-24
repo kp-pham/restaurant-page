@@ -168,18 +168,24 @@ img {
     background: linear-gradient(45deg, #3E0C0D 50%, #9E0033 50%);
 }
 
-.magenta .front,
-.magenta .back {
+.magenta .front {
     background: linear-gradient(45deg, #9E0033 50%, #3E0C0D 50%);
+}
+
+.magenta .back {
+    background: linear-gradient(-45deg, #9E0033 50%, #3E0C0D 50%);
 }
 
 .teal {
     background: linear-gradient(45deg, #061327 50%, #005D6C 50%);
 }
 
-.teal .front,
-.teal .back {
+.teal .front {
     background: linear-gradient(45deg, #005D6C 50%, #061327 50%);
+}
+
+.teal .back {
+    background: linear-gradient(-45deg, #005D6C 50%, #061327 50%);
 }
 
 .menu {
