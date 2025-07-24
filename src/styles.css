@@ -119,39 +119,43 @@ img {
 }
 
 .home .ad-space {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #24201E;
-}
-
-.ad-space > blockquote {
     color: white;
-    border: 5px double;
-    border-color: #610C23 #118295;
 }
 
 .card {
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 350px;
     padding: 20px;
+    justify-self: center;
+    font-size: 1.5rem;
 }
 
 .card-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
     width: 100%;
     height: 100%;
 }
 
-.card:nth-child(-n+2) {
+.magenta {
     background: linear-gradient(45deg, #3E0C0D 50%, #9E0033 50%);
 }
 
-.card:nth-child(-n+2) .card-content {
+
+.magenta .card-content {
     background: linear-gradient(45deg, #9E0033 50%, #3E0C0D 50%);
 }
 
-.card:nth-child(n+3) {
+
+.teal {
     background: linear-gradient(45deg, #061327 50%, #005D6C 50%);
 }
 
-.card:nth-child(n+3) .card-content {
+.teal .card-content {
     background: linear-gradient(45deg, #005D6C 50%, #061327 50%);
 }
 

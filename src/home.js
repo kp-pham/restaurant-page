@@ -89,33 +89,37 @@ function createSlideshowController() {
 function createAdSpace() {
     const adSpace = document.createElement("div");
     adSpace.classList.add("ad-space");
-    adSpace.appendChild(createCard());
-    adSpace.appendChild(createCard());
-    adSpace.appendChild(createCard());
-    adSpace.appendChild(createCard());
+    adSpace.appendChild(createMagentaCard());
+    adSpace.appendChild(createTealCard());
     
     return adSpace;
 }
 
-function createCard() {
-    const card = document.createElement("div");
-    card.classList.add("card");
-    
-    const content = document.createElement("div");
-    content.classList.add("card-content");
+function createMagentaCard() {
+    const magentaCard = document.createElement("div");
+    magentaCard.classList.add("card", "magenta");
 
-    card.appendChild(content);
+    const cardContent = document.createElement("div");
+    cardContent.classList.add("card-content");
 
-    return card;
+    cardContent.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
+        Can you see through it, and find the truth hidden by the magic?";
+    magentaCard.appendChild(cardContent);
+
+    return magentaCard;
 }
 
-function createAdContent() {
-    const content = document.createElement("blockquote");
-    content.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
-        Can you see through it, and find the truth hidden by the magic? Tonight, the most dazzling twin \
-        stars of the Court of Fontaine shall reveal the secret!";
+function createTealCard() {
+    const tealCard = document.createElement("div");
+    tealCard.classList.add("card", "teal");
 
-    return content;
+    const cardContent = document.createElement("div");
+    cardContent.classList.add("card-content");
+
+    cardContent.textContent = "Tonight, the most dazzling twin stars of the Court of Fontaine shall reveal the secret!";
+    tealCard.appendChild(cardContent);
+
+    return tealCard;
 }
 
 export default displayHomepage;
