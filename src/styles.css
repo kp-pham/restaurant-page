@@ -126,24 +126,27 @@ img {
 }
 
 .card {
+    perspective: 1000px;
+}
+
+.outline {
     width: 250px;
     height: 350px;
     padding: 20px;
     justify-self: center;
     font-size: 1.5rem;
-    background-color: transparent;
-    perspective: 1000px;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
 }
 
 .card-content {
     position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.5s;
     transform-style: preserve-3d;
 }
 
-.card:hover .card-content {
+.card:hover .outline {
     transform: rotateY(180deg);
 }
 

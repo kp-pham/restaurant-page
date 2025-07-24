@@ -96,46 +96,68 @@ function createAdSpace() {
 }
 
 function createMagentaCard() {
-    const magentaCard = document.createElement("div");
-    magentaCard.classList.add("card", "magenta");
+    const card = document.createElement("div");
+    card.classList.add("card");
 
-    const cardContent = document.createElement("div");
-    cardContent.classList.add("card-content");
+    const magentaOutline = createMagentaOutline();
+    magentaOutline.appendChild(createMagentaContent());
+    card.appendChild(magentaOutline);
 
-    const front = document.createElement("div");
-    front.classList.add("front");
-    cardContent.appendChild(front);
-
-    const back = document.createElement("div");
-    back.classList.add("back");
-    back.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
-        Can you see through it, and find the truth hidden by the magic?";
-    cardContent.appendChild(back);
-
-    magentaCard.appendChild(cardContent);
-
-    return magentaCard;
+    return card;
 }
 
 function createTealCard() {
-    const tealCard = document.createElement("div");
-    tealCard.classList.add("card", "teal");
+    const card = document.createElement("div");
+    card.classList.add("card");
+    
+    const tealOutline = createTealOutline();
+    tealOutline.appendChild(createTealContent());
+    card.appendChild(tealOutline);
 
-    const cardContent = document.createElement("div");
-    cardContent.classList.add("card-content");
+    return card;
+}
 
+const createMagentaOutline = makeCreateCardOutline("magenta");
+const createTealOutline = makeCreateCardOutline("teal");
+
+function makeCreateCardOutline(color) {
+    return function() {
+        const cardOutline = document.createElement("div");
+        cardOutline.classList.add("outline", color);
+
+        return cardOutline;
+    }
+}
+
+const createMagentaContent = makeCreateCardContent("Light and shadow weave a tapestry as dreams and reality merge and collide. \
+                                                            Can you see through it, and find the truth hidden by the magic?");
+const createTealContent = makeCreateCardContent("Tonight, the most dazzling twin stars of the Court of Fontaine shall reveal the secret!");
+
+function makeCreateCardContent(content) {
+    return function() {
+        const cardContent = document.createElement("div");
+        cardContent.classList.add("card-content");
+
+        cardContent.appendChild(createCardFront("magenta-front"));
+        cardContent.appendChild(createCardBack(content));
+
+        return cardContent;
+    }
+}
+
+function createCardFront() {
     const front = document.createElement("div");
     front.classList.add("front");
-    cardContent.appendChild(front);
 
+    return front;
+}
+
+function createCardBack(content) {
     const back = document.createElement("div");
     back.classList.add("back");
-    back.textContent = "Tonight, the most dazzling twin stars of the Court of Fontaine shall reveal the secret!";
-    cardContent.appendChild(back);
+    back.textContent = content;
 
-    tealCard.appendChild(cardContent);
-
-    return tealCard;
+    return back;
 }
 
 export default displayHomepage;
