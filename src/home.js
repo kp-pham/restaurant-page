@@ -10,7 +10,7 @@ function displayHomepage() {
 
     content.appendChild(createSlideshow());
     createSlideshowController();
-    content.appendChild(createAdvertisement());
+    content.appendChild(createAdSpace());
 }
 
 function createSlideshow() {
@@ -86,13 +86,36 @@ function createSlideshowController() {
     dots.forEach(dot => dot.addEventListener("click", event => updateSlideshow(event.target.dataset.slide)));
 }
 
-function createAdvertisement() {
-    const advertisement = document.createElement("blockquote");
-    advertisement.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
+function createAdSpace() {
+    const adSpace = document.createElement("div");
+    adSpace.classList.add("ad-space");
+    adSpace.appendChild(createCard());
+    adSpace.appendChild(createCard());
+    adSpace.appendChild(createCard());
+    adSpace.appendChild(createCard());
+    
+    return adSpace;
+}
+
+function createCard() {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    
+    const content = document.createElement("div");
+    content.classList.add("card-content");
+
+    card.appendChild(content);
+
+    return card;
+}
+
+function createAdContent() {
+    const content = document.createElement("blockquote");
+    content.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
         Can you see through it, and find the truth hidden by the magic? Tonight, the most dazzling twin \
         stars of the Court of Fontaine shall reveal the secret!";
 
-    return advertisement;
+    return content;
 }
 
 export default displayHomepage;

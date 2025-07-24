@@ -70,6 +70,12 @@ nav button:hover, nav button:focus-visible {
     background-color: #237F6C;
 }
 
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .home > div {
     background-color: #143230;
     padding: 30px;
@@ -110,6 +116,43 @@ img {
 
 .dot:hover, .dot:focus-visible {
     outline: 4px solid #A66F44;
+}
+
+.home .ad-space {
+    background-color: #24201E;
+}
+
+.ad-space > blockquote {
+    color: white;
+    border: 5px double;
+    border-color: #610C23 #118295;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+}
+
+.card:nth-child(-n+2) {
+    background: linear-gradient(45deg, #3E0C0D 50%, #9E0033 50%);
+}
+
+.card:nth-child(-n+2) .card-content {
+    background: linear-gradient(45deg, #9E0033 50%, #3E0C0D 50%);
+}
+
+.card:nth-child(n+3) {
+    background: linear-gradient(45deg, #061327 50%, #005D6C 50%);
+}
+
+.card:nth-child(n+3) .card-content {
+    background: linear-gradient(45deg, #005D6C 50%, #061327 50%);
 }
 
 .menu {
