@@ -261,3 +261,8 @@ footer {
 .emblem img {
     transform: rotate(-45deg);
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}

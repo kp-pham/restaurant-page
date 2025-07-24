@@ -20,6 +20,8 @@ function createContactForm() {
     contactForm.appendChild(createFieldLabel("Message: ", "message"));
     contactForm.appendChild(createMessageField("message"));
 
+    contactForm.appendChild(createSubmitButton());
+
     return contactForm;
 }
 
@@ -55,5 +57,12 @@ function createMessageField(id) {
     return messageField;
 }
 
+function createSubmitButton() {
+    const button = document.createElement("button");
+    button.textContent = "Submit";
+    button.type = "submit";
+
+    return button;
+}
 
 export default displayContact;
