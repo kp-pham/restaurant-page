@@ -102,8 +102,16 @@ function createMagentaCard() {
     const cardContent = document.createElement("div");
     cardContent.classList.add("card-content");
 
-    cardContent.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
+    const front = document.createElement("div");
+    front.classList.add("front");
+    cardContent.appendChild(front);
+
+    const back = document.createElement("div");
+    back.classList.add("back");
+    back.textContent = "Light and shadow weave a tapestry as dreams and reality merge and collide. \
         Can you see through it, and find the truth hidden by the magic?";
+    cardContent.appendChild(back);
+
     magentaCard.appendChild(cardContent);
 
     return magentaCard;
@@ -116,7 +124,15 @@ function createTealCard() {
     const cardContent = document.createElement("div");
     cardContent.classList.add("card-content");
 
-    cardContent.textContent = "Tonight, the most dazzling twin stars of the Court of Fontaine shall reveal the secret!";
+    const front = document.createElement("div");
+    front.classList.add("front");
+    cardContent.appendChild(front);
+
+    const back = document.createElement("div");
+    back.classList.add("back");
+    back.textContent = "Tonight, the most dazzling twin stars of the Court of Fontaine shall reveal the secret!";
+    cardContent.appendChild(back);
+
     tealCard.appendChild(cardContent);
 
     return tealCard;
