@@ -289,18 +289,50 @@ form button:hover, form button:focus-visible {
 section {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
-input, 
-select, 
+input,  
 textarea {
     background-color: #237F6C;
-    border: 5px double #CEB360;
     color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+select {
+    appearance: base-select;
+    background-color: #237F6C;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+select:open, select:focus {
+    outline: 5px double #CEB360;
+}
+
+select::picker(select) {
+    appearance: base-select;
+    background-color: #237F6C;
+    border: 5px double #CEB360;
+    border-radius: 10px;
+}
+
+option {
+    color: white;
+    background-color: #237F6C;
 }
 
 option:hover {
-    box-shadow: 0px 0px 10px 100px #CEB360 inset;
+    background-color: #CEB360;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 5px double #CEB360;
 }
 
 textarea {
