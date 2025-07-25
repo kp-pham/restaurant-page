@@ -56,9 +56,10 @@ In compliance of the license terms, the links to the original articles from whic
 - Tomates Narbonnaises - https://genshin-impact.fandom.com/wiki/Tomates_Narbonnaises
 - Tripes du Port - https://genshin-impact.fandom.com/wiki/Tripes_du_Port
 
-###
+### u/To_Bun
 
-https://www.reddit.com/r/Genshin_Impact/comments/1739kqe/fontaine_script_font/
+The creator also wants to provide proper attribution to Reddit user [u/To_Bun](https://www.reddit.com/user/To_Bun/) for the creation of the text font for the Fontainian script which was used in the design of the branding for the restaurant page. The original Reddit post from the Genshin Impact Reddit has been linked [here](https://www.reddit.com/r/Genshin_Impact/comments/1739kqe/fontaine_script_font/) for those who are interested in downloading the text font for themselves. 
+
 <!-- ![](./public/slideshow.gif)
 ![](./public/cards.gif)
 ![](./public/menu.mp4)
