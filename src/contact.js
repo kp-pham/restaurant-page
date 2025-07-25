@@ -53,12 +53,12 @@ function createDropdown() {
     dropdown.required = true;
 
     dropdown.appendChild(createPlaceholder());
-    dropdown.appendChild(createOption("Customer Feedback"));
-    dropdown.appendChild(createOption("Reservation"));
-    dropdown.appendChild(createOption("Private Event Booking"));
-    dropdown.appendChild(createOption("Job Application"));
-    dropdown.appendChild(createOption("Business Inquiries"));
-    dropdown.appendChild(createOption("General Inquiries / Other"));
+    dropdown.appendChild(createOption("Customer Feedback", "feedback"));
+    dropdown.appendChild(createOption("Reservation", "reservation"));
+    dropdown.appendChild(createOption("Private Event Booking", "event-booking"));
+    dropdown.appendChild(createOption("Job Application" , "job"));
+    dropdown.appendChild(createOption("Business Inquiries", "business"));
+    dropdown.appendChild(createOption("General Inquiries / Other", "other"));
     
     return dropdown;
 }
@@ -74,10 +74,10 @@ function createPlaceholder() {
     return placeholder;
 }
 
-function createOption(choice) {
+function createOption(choice, value) {
     const option = document.createElement("option");
     option.textContent = choice;
-    option.value = choice.toLowerCase();
+    option.value = value;
 
     return option;
 }
