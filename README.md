@@ -30,20 +30,13 @@ Genshin Impact is an action role-playing game developed by miHoYo and published 
 > - A list of all the contributing authors.
 > 3. Sharealike (SA) means that if you alter, transform, or build upon the material, you can only release the resulting work under the same or similar license. Because of this, if you add more information, then that information along with the original content must remain under the same license, or one very close to it. You also need to identify the changes to the original work. On Fandom wikis, this is done automatically through versioning and diff views.
 
+The *Genshin Impact Wiki* is a fan-made and maintained English resource for the global version of the video game *Genshin Impact* hosted on the Fandom platform. In accordance to the licensing guidelines of the Fandom platform for the usage of the content sourced from the *Genshin Impact Wiki* based on the terms of the license Creative Commons Attribution-ShareAlike 3.0 (Unported) (CC-BY-SA), the creator acknowledges and adheres to the license terms through proper attribution in the form of linking the original articles from the *Genshin Impact Wiki* from which the content used was sourced from and the linking the license terms under which the content sourced from the *Genshin Impact Wiki* is licensed. The creator also upholds their obligation to license the project under the same same license and disclose changes to the content used from the *Genshin Impact Wiki* to build upon the original material.
 
-The *Genshin Impact Wiki* is a fan-made and maintained English resource for the global version of the video game *Genshin Impact* hosted on the Fandom platform. In accordance to the licensing guidelines of the Fandom platform for the usage of the content sourced from the *Genshin Impact Wiki* based on the terms of the license Creative Commons Attribution-Share Alike 3.0 (Unported) (CC-BY-SA), the creator acknowledges and adheres to the license terms through proper attribution in the form of linking the original articles from the *Genshin Impact Wiki* from which the descriptions of in-game food items were sourced from and the linking the license terms under which the content sourced from the *Genshin Impact Wiki* is licensed.
+**The content from the *Genshin Impact Wiki* has been adapated for the restaurant page of a fictional restaurant based on the restaurant of the same name in the video game *Genshin Impact*. The description of the in-game food items sourced from the *Genshin Impact Wiki* are presented as the descriptions of the dishes on the restaurant menu.** 
 
-Creative Commons Attribution-Share Alike 3.0 (Unported) (CC-BY-SA) - https://creativecommons.org/licenses/by-sa/3.0/
+**This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 (Unported) (CC-BY-SA). To view a copy of the license, click https://creativecommons.org/licenses/by-sa/3.0/.**
 
-> You are free to:
->
-> Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
->
-> Adapt — remix, transform, and build upon the material for any purpose, even commercially.
->
->The licensor cannot revoke these freedoms as long as you follow the license terms.
-
-
+In compliance of the license terms, the links to the original articles from which the descriptions of the in-game items were sourced from are provided as proper attribution to the original author of the article.
 
 - Boudin Nour aux Pommes - https://genshin-impact.fandom.com/wiki/Boudin_Noir_aux_Pommes
 - Bulle Sauce Duck Breast - https://genshin-impact.fandom.com/wiki/Bulle_Sauce_Duck_Breast
@@ -62,6 +55,8 @@ Creative Commons Attribution-Share Alike 3.0 (Unported) (CC-BY-SA) - https://cre
 - Rainbow Macarons - https://genshin-impact.fandom.com/wiki/Rainbow_Macarons
 - Tomates Narbonnaises - https://genshin-impact.fandom.com/wiki/Tomates_Narbonnaises
 - Tripes du Port - https://genshin-impact.fandom.com/wiki/Tripes_du_Port
+
+###
 
 https://www.reddit.com/r/Genshin_Impact/comments/1739kqe/fontaine_script_font/
 <!-- ![](./public/slideshow.gif)
