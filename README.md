@@ -74,7 +74,7 @@ The creator also wants to provide proper attribution to Reddit user [u/To_Bun](h
 ![Animated demonstration of interactive advertisement on restaurant homepage which reveals promotional message when the card is flipped over.](./public/cards.gif)
 
 ## Menu
-[![Video demonstration of the menu on the restaurant homepage featuring appetizers, entrees, desserts, and beverages.](./public/menu-thumbnail.png)](./public/menu.mp4)
+![Animated demonstration of the menu on the restaurant homepage featuring appetizers, entrees, desserts, and beverages.](./public/menu.gif)
 
 ## Contact Form
 ![Animated demonstration of filling out the contact form on the restaurant homepage.](./public/contact-form.gif)
