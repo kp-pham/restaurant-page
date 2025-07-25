@@ -318,6 +318,7 @@ select::picker(select) {
     background-color: #237F6C;
     border: 5px double #CEB360;
     border-radius: 10px;
+    top: calc(anchor(bottom));
 }
 
 option {
@@ -327,6 +328,10 @@ option {
 
 option:hover {
     background-color: #CEB360;
+}
+
+option:focus {
+    outline: none;
 }
 
 input:focus-visible,
