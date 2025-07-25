@@ -17,6 +17,11 @@ function createContactForm() {
     contactForm.appendChild(createSection(createFieldLabel("Message: ", "message"), createMessageField("message")));
     contactForm.appendChild(createSubmitButton());
 
+    contactForm.addEventListener("submit", event => {
+        event.preventDefault(); 
+        clearForm();
+    });
+
     return contactForm;
 }
 
@@ -104,6 +109,13 @@ function createSection(label, input) {
     section.append(label, input);
 
     return section;
+}
+
+function clearForm() {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("reason").selectedIndex = 0;
+    document.getElementById("message").value = "";
 }
 
 export default displayContact;
