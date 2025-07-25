@@ -1,7 +1,7 @@
 {
   "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project submission for the restaurant page project from The Odin Project. A restaurant page based on the fictional restaurant Hotel Debord from the video game Genshin Impact.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
