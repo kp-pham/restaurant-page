@@ -2,7 +2,7 @@
 
 The restaurant page project involves the creation of a restaurant homepage through dynamically rendering the contents of the homepage.
 
-The main learning objectives of the project were to become familiar with bundling modules through the set-up and configuration of Webpack and exporting modules and importing from other modules to the entry point of the application to understand the concept of modularity with the implementation of tabbed browsing for the restaurant homepage.
+The main learning objectives of the project were to become familiar with bundling modules through the set-up and configuration of Webpack and exporting modules and importing from other modules to the entry point of the application to understand the concept of modularity with the implementation of tabbed browsing.
 
 Other learning outcomes of the project beyond the learning objectives and practice of concepts learned from the Foundations and Intermediate HTML and CSS courses were the design and implementation of the slideshow/carousel for the images of the interior of the restaurant and the use of animations for the advertisement of the upcoming performance at the restaurant on the homepage of the restaurant and the use of more advanced CSS properties to overcome the limitations of the styling for form controls set by the operating system on the contact form for the restaurant homepage.
 
@@ -38,7 +38,7 @@ Genshin Impact is an action role-playing game developed by miHoYo and published 
 
 The *Genshin Impact Wiki* is a fan-made and maintained English resource for the global version of the video game *Genshin Impact* hosted on the Fandom platform. In accordance to the licensing guidelines of the Fandom platform for the usage of the content sourced from the *Genshin Impact Wiki* based on the terms of the license Creative Commons Attribution-ShareAlike 3.0 (Unported) (CC-BY-SA), the creator acknowledges and adheres to the license terms through proper attribution in the form of linking the original articles from the *Genshin Impact Wiki* from which the content used was sourced from and the linking the license terms under which the content sourced from the *Genshin Impact Wiki* is licensed. The creator also upholds their obligation to license the project under the same same license and disclose changes to the content used from the *Genshin Impact Wiki* to build upon the original material.
 
-**The content from the *Genshin Impact Wiki* has been adapated for the restaurant page of a fictional restaurant based on the restaurant of the same name in the video game *Genshin Impact*. The description of the in-game food items sourced from the *Genshin Impact Wiki* are presented as the descriptions of the dishes on the restaurant menu.** 
+**The content from the *Genshin Impact Wiki* has been adapated for the restaurant page of a fictional restaurant based on the restaurant of the same name in the video game *Genshin Impact*. The descriptions of in-game food items sourced from the *Genshin Impact Wiki* are presented as descriptions of the dishes on the restaurant menu.** 
 
 **This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 (Unported) (CC-BY-SA). To view a copy of the license, click https://creativecommons.org/licenses/by-sa/3.0/.**
 
@@ -64,7 +64,7 @@ In compliance of the license terms, the links to the original articles from whic
 
 ### u/To_Bun
 
-The creator also wants to provide proper attribution to Reddit user [u/To_Bun](https://www.reddit.com/user/To_Bun/) for the creation of the text font for the Fontaine script which was used in the design of the branding for the restaurant page. The original Reddit post from the Genshin Impact Reddit has been linked [here](https://www.reddit.com/r/Genshin_Impact/comments/1739kqe/fontaine_script_font/) for those who are interested in downloading the text font for themselves. 
+The creator also wants to provide proper attribution to Reddit user [u/To_Bun](https://www.reddit.com/user/To_Bun/) for the creation of the text font for the Fontaine script which was used in the design of the branding for the restaurant page. The original Reddit post from the Genshin Impact Reddit has been linked [here](https://www.reddit.com/r/Genshin_Impact/comments/1739kqe/fontaine_script_font/) for those who are interested in downloading the text font. 
 
 ## Tabbed Browsing
 ![Animated demonstration of restaurant homepage featuring ](./public/tabbed-browsing.gif)
@@ -74,7 +74,7 @@ The creator also wants to provide proper attribution to Reddit user [u/To_Bun](h
 ![Animated demonstration of interactive advertisement on restaurant homepage which reveals promotional message when the card is flipped over.](./public/cards.gif)
 
 ## Menu
-![Video demonstration of the menu on the restaurant homepage featuring appetizers, entrees, desserts, and beverages.](./public/menu.mp4)
+[![Video demonstration of the menu on the restaurant homepage featuring appetizers, entrees, desserts, and beverages.](./public/menu-thumbnail.png)](./public/menu.mp4)
 
 ## Contact Form
 ![Animated demonstration of filling out the contact form on the restaurant homepage.](./public/contact-form.gif)
