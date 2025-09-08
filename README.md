@@ -4,9 +4,7 @@ The restaurant page project involves the creation of a restaurant homepage throu
 
 The main learning objectives of the project were to become familiar with bundling modules through setting up and configuring Webpack and exporting and importing from other modules to the entry point of the application to understand the concept of modularity with the implementation of tabbed browsing.
 
-Other learning outcomes were the design and implementation of the slideshow/carousel for the images of the interior of the restaurant and the use of animations for the advertisement of the upcoming performance at the restaurant on the homepage of the restaurant and the use of more advanced CSS properties to overcome the limitations of the styling for form controls set by the operating system on the contact form for the restaurant homepage.
-
-The showcase of the design of the restaurant homepage can be found at the bottom of the page.
+Other learning outcomes were the design of the carousel to showcase images of the restaurant interior, the use of transitions and transformations for the promotion of the performance hosted at the restaurant venu , and advanced styling features released in the latest browser versions for more control over styling forms.
 
 ## Disclaimer
 
