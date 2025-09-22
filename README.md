@@ -52,6 +52,42 @@ Other learning outcomes were the design of the carousel to showcase images of th
 
 The creater wants to provide proper attribution to Reddit user [u/To_Bun](https://www.reddit.com/user/To_Bun/) for their creation of the font style for the Fontaine script. The creator encourages those who are interested to check out the [original Reddit post](https://www.reddit.com/r/Genshin_Impact/comments/1739kqe/fontaine_script_font/) and show some support to the original creator. 
 
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/calculator.git
+```
+
+Change into the project directory:
+```bash
+cd calculator
+```
+
+Install packages with npm:
+```bash
+npm install
+```
+
+### Production
+
+Build the project:
+```bash
+npm run build
+```
+
+Deploy production build:
+```bash
+npm run deploy
+```
+
+### Development
+
+Start development server:
+```bash
+npm start
+```
+
 ## Tabbed Browsing
 ![Animated demonstration of restaurant homepage featuring ](./public/tabbed-browsing.gif)
 
