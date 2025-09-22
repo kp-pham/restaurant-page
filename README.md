@@ -56,7 +56,7 @@ The creater wants to provide proper attribution to Reddit user [u/To_Bun](https:
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/your-username/restaurant-page.git
 ```
 
 Change into the project directory:
