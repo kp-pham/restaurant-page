@@ -61,7 +61,7 @@ git clone https://github.com/your-username/restaurant-page.git
 
 Change into the project directory:
 ```bash
-cd calculator
+cd restaurant-page
 ```
 
 Install packages with npm:
